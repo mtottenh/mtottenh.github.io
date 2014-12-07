@@ -6,6 +6,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'adam';
+    src: url("../fonts/adam.otf");
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
   font-family: 'OpenSansLightItalic';
@@ -78,7 +84,7 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #A3BFC6 ;
   font-weight: normal;
-  background: #222A30;
+  background: #222A2F;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -244,7 +250,7 @@ dt {
 
 section {
   max-width: 960px;/*  //750*/
-  background: rgba(46, 57, 65, 1);
+  background: #334455;
   box-shadow: 10px 10px 5px black;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
@@ -259,12 +265,12 @@ section #title {
 }
 
 section .p-title{ 
-  color: #49B1F7;
+  color: #cc5544;
 }
 
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'adam', 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-size: 40px;
   text-align: center;
 }
